@@ -1,0 +1,219 @@
+/*<!--  头部    -->*/
+#header_center {
+	width: 1000px;
+	height: 68px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.header_left {
+	width: 74px;
+	height: 68px;
+	float: left;
+}
+.header_right{
+	width: 472px;
+	height: 29px;
+	float: right;
+	margin-top: 19px;
+}
+/*<!--  注册    表内容-->*/
+#wrap_content{
+	width: 980px;
+	height: 600px;
+	margin: 0 auto;
+	/*background: skyblue;*/
+}
+.content_left{
+	width: 600px;
+	height: 410px;
+	float: left;
+	margin-top: 50px;
+	/*background: salmon;*/
+	text-align: center;
+}
+.content_right{
+	width: 367px;
+	height: 600px;
+	float: right;
+	/*background: sandybrown;*/
+	background: url(img/login_icon_list.png) 0 -115px no-repeat;
+}
+.content_rightForm{
+	width: 301px;
+	height: 522px;
+	margin-left: 33px;
+	/*background: seagreen;*/
+}
+.content_rightForm_top{
+	width: 301px;
+	height: 38px;
+	margin-top: 23px;
+	margin-bottom: 26px;
+	/*background: yellow;*/
+}
+.content_rightForm_top>h2{
+	color: #f11d20;
+    font-size: 22px;
+    height: 38px;
+    line-height: 38px;
+    font-weight: bold;
+    float: left;
+}
+.content_rightForm_topRight{
+	text-align: right;
+    height: 38px;
+    line-height: 38px;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+.content_rightForm_topRight a{
+	color: #c41f3a;
+    text-decoration: none;
+}
+.content_rightForm_radiobox{
+	width: 317px;
+	height: 29px;
+	/*background: cyan;*/
+	margin-top: 20px;
+	line-height: 29px;
+}
+.content_rightForm_radiobox>span>label{
+	font-size: 12px;
+	padding-left: 5px;
+}
+
+.content_rightForm_input{
+	width: 301px;
+	height: 434.2px;
+	/*background: tomato;*/
+}
+.register_formItem1{
+	width: 301px;
+	height: 64px;
+	margin-bottom: 10px;
+	/*background: tan;*/
+	text-align: center;
+}
+.register_phone{
+	color: #333333;
+    border: 1px solid #c8c8c8;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 6px;
+    width: 293px;
+    font-size: 12px;
+    padding: 7px 0 7px 6px;
+}
+.register_formItem1_txt{
+	width: 301px;
+	height: 23px;
+	margin-bottom: 3px;
+}
+.register_formItem1_txtCon{
+	color: #c4203b;
+    padding: 0;
+    position: relative;
+    height: 23px;
+    line-height: 23px;
+    text-align: left;
+    width: 275px;
+    font-size: 12px;
+	display: none;
+}
+.icon_err{
+	width: 18px;
+	height: 18px;
+	background: url(img/login_icon_list.png) no-repeat 0 0 ;
+    display: inline-block;
+    vertical-align: middle;
+}
+.register_yzm{
+	width: 157px;
+	color: #333333;
+    border: 1px solid #c8c8c8;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 6px;
+    font-size: 12px;
+    padding: 7px 0 7px 6px;
+}
+.register_yzm_hq{
+	margin-left: 11px;
+    color: #444444;
+    font-family: "宋体";
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    outline: 0;
+    display: inline-block;
+    background-color: #f6f6f6;
+    border: 1px solid #c8c8c8;
+    width: 117px;
+    height: 38px;
+    line-height: 38px;
+    vertical-align: top;
+    text-decoration: none !important;
+}
+
+.register_formbtn a{
+	display: block;
+    width: 310px;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    background-color: #F11D20;
+    text-align: center;
+    font-size: 14px;
+    font-family: "宋体";
+    font-weight: bold;
+    text-decoration: none;
+}
+.coagent{
+	width: 317px;
+	height: 85px;
+	/*background: cadetblue;*/
+}
+.coagent>h5{
+	color: #333;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    font-family: "宋体";
+}
+.coagent>ul>li{
+	float: left;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.coagent>ul>li:nth-child(1)>a{
+    text-indent: -999em;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url(img/login_icon_list.png)no-repeat;
+	background-position: 0 -32px;"
+}
+/*.coagent>ul>li:nth-child(2)>a{
+    text-indent: -999em;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url(img/login_icon_list.png)no-repeat;
+	background-position: -74 -32px !important;
+}
+.coagent>ul>li:nth-child(3)>a{
+	text-indent: -999em;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url(img/login_icon_list.png)no-repeat;
+	background-position: -143 -32px !important;
+}*/
+.coagent>ul>li:nth-child(4)>a img{
+	width: 50px;
+	height: 50px;
+}
+
+
+

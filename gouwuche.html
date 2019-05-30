@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		*{margin: 0;padding: 0;}
+		li{list-style: none;}
+		a{text-decoration: none;}
+		body{background-color: #F8f8f8;}
+	</style>
+	<link rel="stylesheet" type="text/css" href="reset.css"/>
+	<link rel="stylesheet" type="text/css" href="gouwuche.css"/>
+	<link rel="stylesheet" type="text/css" href="icon/iconfont.css"/>
+	<body>
+		<!--头部   登录注册-->
+		<div id="header_top">
+			<div class="w1090">
+				<div class="w1090Left">
+					<span>欢迎来到快乐购！</span>&nbsp;&nbsp;
+					<a href="denglu.html"target="_blank">[登录]</a>&nbsp;&nbsp;
+					<a href="zhuce.html">[免费注册]</a>
+				</div>
+				<div class="w1090Right">
+					<ul>
+						<li><a>合作招商</a><span class="line"></span></li>
+						<li><a>订单查询</a><span class="line"></span></li>
+						<li><a>我的快乐购</a><span class="line"></span></li>
+						<li>
+							<i class="tel_icon"></i>
+							<a>400-705-1111</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a>下载快乐购app</a>
+							<span class="line"></span>
+							<div class="down_load_hpg">
+								<div class="down_load_hpg_border">
+									<b class="down_load_iocn"></b>
+									<img src="img/down_load_20190509.jpg"style="max-width: 220px;"/>
+								</div>
+							</div>
+						</li>
+						<li >
+							<a class="li_last">
+								客服中心
+								<i class="down_b_iocn"></i>
+							</a>
+							
+							<div class="down_kf">
+								<a>
+								        客服中心
+								   <i class="down_b_iocn"></i>
+							    </a>
+								<a>帮助中心</a>
+								<a>会员反馈</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--   图标    购物车    搜索  -->
+		<div id="shoppcar_img">
+			<h1>
+				<a>
+					<img src="img/logo.jpg"/>
+				</a>
+				<a>
+					<img src="img/logo_txt.png"/>
+				</a>
+			</h1>
+			<div class="area_wrapper">
+				<span>配送至:</span>
+				<div class="mod_area_select">
+					<div class="address">
+						<span class="val_text">
+							<select id="pro"></select>省
+							<i>|</i>
+							<select id="city"></select>市
+							<i>|</i>
+							<select id="area"></select>区
+						</span>
+						<!--<i class="btn_arrow"></i>-->
+					</div>
+				</div>
+			</div>
+			<div class="mod_search">
+				<input type="text" placeholder="请输入关键词" />
+				<a href="" class="iconfont mod_search_btn">&#xe614;</a>
+			</div>
+		</div>
+		<!-- 列表   加入单   -->
+		<div id="wrapper">
+			<div class="car_list_header">
+				<span class="checkedallbox">
+					<input type="checkbox"  />
+					全选
+				</span>
+				<span class="shopp_tit">商品信息</span>
+				<span class="shopp_price">单价(元)</span>
+				<span class="shopp_count">数量</span>
+				<span class="shopp_xji">小计(元)</span>
+				<span class="shopp_czuo">操作</span>
+			</div>
+			<div class="car_list_content">
+				<div class="car_list_zying">
+					<div >
+						<input type="checkbox" />
+						<a>自营</a>
+						<div class="car_list_zyingR">
+					         <i class="iconfont">&#xe614;</i>
+					                            已免邮
+				        </div>
+					</div>
+				</div>
+				<div class="car_list_shpin">
+					<ul class="car_list_item">
+						<li>
+							<input type="checkbox" class="car_gouxuan" />
+							<div class="car_list_prod">
+								
+								<a>
+									<img src="img/5b70e0abN82d538f1.jpg" width="75px"height="75px"/>
+								</a>
+								<a class="car_list_itemOnline">
+									    特步男士运动鞋新款男休闲鞋秋冬季革面轻便时尚正品潮流跑步882419329516红黑-男 42码 
+								</a>
+								<div class="car_list_conprice">
+									<p>149.00</p>
+								</div>
+								<div class="car_list_connum">
+									<div class="car_list_connumact">
+										<a class="car_countreduce">-</a>
+										<input type="text"  value="1" class="car_countinput" />
+										<a class="car_countadd">+</a>
+									</div>
+								</div>
+								<div class="car_priceamount">
+									<div class="car_money">149.00</div>
+								</div>
+								<div class="car_caozuo">
+									<a>收藏&nbsp;</a>
+									<a class="car_caozuoDel">&nbsp;删除</a>
+								</div>
+								
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--<div class="car_shoppsumWrap">
+					<div class="car_shoppsum">
+						商品总价:
+						<span class="car_shoppsummoney">
+							<em>¥</em>
+							149.00
+						</span>
+					</div>
+				</div>-->
+				
+				<div class="car_shoppsumWrap">
+					<div class="car_shoppsum">
+						合计:
+						<span class="car_shoppsummoney">
+							¥0.00
+						</span>
+						<button class="btn_sum">去结算</button>
+					</div>
+					
+					
+					
+				</div>
+				
+				
+				
+			</div>
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!--  页面往下滚动, 顶部浮出的搜索框    -->
+		<div id="searchFixed">
+			<div class="w1200wrap">
+				<div class="w1200wrapLeft">
+					<img src="img/search_fixed_logo.png" style="margin-top: 9px;"/>
+				</div>
+				<div class="w1200wrapRight">
+					<form action="" method="post" onsubmit="return false" id="searchTop">
+						<div class="searchTop_input">
+							<input type="text" class="keyword_fixed" placeholder="" />
+						    <i class="iconfont searchTop_ion">&#xe614;</i>
+						</div>
+						<input type="submit" value="搜索" class="searchTop_btn"/>
+						<p style="clear: both;"></p>
+					</form>
+				</div>
+				<p style="clear: both;"></p>
+			</div>
+		</div>
+		<!--  右侧导航栏    -->
+		<div id="rightNav">
+			<div class="rightNav_center">
+				<div class="rightNav_centerTop">
+					<div class="rightNav_id">
+						<a class="rightNav_account" href="#">
+							<i class="iconfont rightNav_account_ion">&#xe66c;</i>
+							<div class="rightNav_account_zh">账号</div>
+						</a>
+						<div class="rightNav_line">
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="rightNav_shoppcar">
+						<i class="iconfont rightNav_shoppcar_ion">&#xe63f;</i>
+						<div class="rightNav_shoppcar_txt">购物车</div>
+						<div class="rightNav_shoppcar_num">0</div>
+						<div class="rightNav_line">
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="rightNav_collect">
+						<a class="rightNav_account" href="#">
+							<i class="iconfont rightNav_account_ion">&#xe633;</i>
+							<div class="rightNav_account_zh">收藏</div>
+						</a>
+					</div>
+				</div>
+				<div class="rightNav_centerbottom">
+					<div class="rightNav_centerbottom_top">
+						<i class="iconfont rightNav_centerbottomT_ion">&#xe74a;</i>
+					</div>
+					<div class="rightNav_centerbottom_midd">
+						<i class="iconfont rightNav_centerbottomM_ion">&#xe60a;</i>
+					</div>
+					<div class="rightNav_centerbottom_bott">
+						<i class="iconfont rightNav_centerbottomB_ion">&#xe637;</i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--   结尾     END    -->
+		<div id="goodthingsSelect_end">
+			<h2 class="goodthingsSelect_endTxt">END</h2>
+			<div class="goodthingsSelect_endLine"></div>
+		</div>
+		
+		<!--   底部     footer    -->
+		<div id="footer_wrap">
+			<div class="footer_top">
+				<div class="footer_top_li">
+					<i class="iconfont footer_top_li_ion">&#xe665;</i>
+					<p class="footer_top_p1">成功上市</p>
+					<p class="footer_top_p2">股票代码300413</p>
+					
+				</div>
+				<div class="footer_top_li">
+					<i class="iconfont footer_top_li_ion">&#xe63a;</i>
+					<p class="footer_top_p1">快乐购严选</p>
+					<p class="footer_top_p2">正品行货 品质保证</p>
+				</div>
+				<div class="footer_top_li">
+					<i class="iconfont footer_top_li_ion" style=" font-size: 52px!important ">&#xe61e;</i>
+					<p class="footer_top_p1">15天无理由退款</p>
+					<p class="footer_top_p2">为您提供售后无忧保障</p>
+				</div>
+				<div class="footer_top_li">
+					<i class="iconfont footer_top_li_ion" style=" font-size: 52px !important">&#xe600;</i>
+					<p class="footer_top_p1">满129包邮</p>
+					<p class="footer_top_p2">在线支付 购物包邮</p>
+				</div>
+				<div class="footer_top_li">
+					<i class="iconfont footer_top_li_ion">&#xe61f;</i>
+					<p class="footer_top_p1">直播订购</p>
+					<p class="footer_top_p2">在线支付满199立减10</p>
+				</div>
+				<div class="footer_top_li">
+					<i class="iconfont footer_top_li_ion" style=" font-size: 55px!important ">&#xe654;</i>
+					<p class="footer_top_p1">24小时微笑服务</p>
+					<p class="footer_top_p2">365*24小时人工服务</p>
+				</div>
+			</div>
+			<div class="footer_midd">
+				<div class="footer_middContent">
+					<div class="footer_middContentLeft">
+						<dl class="footer_midd_dl">
+							<dt>
+								<h5>使用帮助</h5>
+							</dt>
+							<dd>
+								<a>税费收取规则</a>
+							</dd>
+							<dd>
+								<a>新手指南</a>
+							</dd>
+							<dd>
+								<a>用户协议</a>
+							</dd>
+							<dd>
+								<a>常见问题</a>
+							</dd>
+						</dl>
+						<dl class="footer_midd_dl">
+							<dt>
+								<h5>会员服务</h5>
+							</dt>
+							<dd>
+								<a>快乐币政策</a>
+							</dd>
+							<dd>
+								<a>会员等级</a>
+							</dd>
+							<dd>
+								<a>会员权益</a>
+							</dd>
+						</dl>
+						<dl class="footer_midd_dl">
+							<dt>
+								<h5>支付方式</h5>
+							</dt>
+							<dd>
+								<a>快乐币支付</a>
+							</dd>
+							<dd>
+								<a>在线支付</a>
+							</dd>
+							<dd>
+								<a>货到付款</a>
+							</dd>
+							<dd>
+								<a>优惠劵支付</a>
+							</dd>
+						</dl>
+						<dl class="footer_midd_dl">
+							<dt>
+								<h5>配送方式</h5>
+							</dt>
+							<dd>
+								<a>包邮政策</a>
+							</dd>
+							<dd>
+								<a>配送说明</a>
+							</dd>
+							<dd>
+								<a>费用说明</a>
+							</dd>
+						</dl>
+						<dl class="footer_midd_dl">
+							<dt>
+								<h5>售后服务</h5>
+							</dt>
+							<dd>
+								<a>电子发票</a>
+							</dd>
+							<dd>
+								<a>售后咨询</a>
+							</dd>
+							<dd>
+								<a>退货政策</a>
+							</dd>
+							<dd>
+								<a>退货处理</a>
+							</dd>
+						</dl>
+						<dl class="footer_midd_dl">
+							<dt>
+								<h5>关于我们</h5>
+							</dt>
+							<dd>
+								<a>快乐购有限公司介绍</a>
+							</dd>
+							<dd>
+								<a>联系我们</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="footer_middContent_erweima">
+						<div class="footer_midd_phone">
+							<h2>手机快乐购</h2>
+							<img src="img/footer_ewm_01.png"/>
+							<p>下载移动客户端</p>
+						</div>
+						<div class="footer_midd_phone">
+							<h2>快乐购微信</h2>
+							<img src="img/footer_ewm_02.png"/>
+							<p>快乐购微信</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer_bott">
+				<div class="footer_bottLine">
+					<div class="footer_bottLineContent">
+						<ul class="footer_bottLineContentUl">
+							<li>
+								<a>关于快乐购</a>
+								<span></span>
+							</li>
+							<li>
+								<a>投资者关系</a>
+								<span></span>
+							</li>
+							<li>
+								<a>自营品牌招商</a>
+								<span></span>
+							</li>
+							<li>
+								<a>联系我们</a>
+								<span></span>
+							</li>
+							<li>
+								<a>营业证照</a>
+								<span></span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer_bottContent">
+					<p>
+						<span>Copyright© 2006-2018 happigo. All Rights Reserved </span>
+					</p>
+					<p>
+						免费服务热线: 400-705-1111 | 固话也可拨打: 400-705-8800
+                        <span>E-Mail: service@happigo.com</span>
+                        <br />
+                        <a style="color: #8C8C8C;text-decoration: none;">湘ICP备17009657号</a>
+                                                信息网络传播视听节目许可证号：1810530 
+                        <img src="img/jh.png"/>                   
+                         <a style="color: #8C8C8C;text-decoration: none;">湘公网安备 43010502000556号</a>
+                         <a style="color: #8C8C8C;text-decoration: none;">食品经营许可证 JY14301000273760</a
+                         	
+					</p>
+					<p>
+						<a>
+							<img src="img/brand_bottom_small.jpg"/>
+						</a>
+						<a>
+							<img src="img/footer_shuidi.png"/>
+						</a>
+					</p>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		
+		
+	</body>
+	<script src="jquery-1.9.1.min.js" type="text/javascript"charset="UTF-8"></script>
+	<script src="gouwuche.js" type="text/javascript"charset="UTF-8"></script>
+	<script type="text/javascript" src="animate.js" ></script>
+	<script src="jquery-1.8.3.min.js"></script>
+</html>
